@@ -1,0 +1,29 @@
+li, h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 4px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.first{
+    text-align: center;
+    background-color: bisque;
+}
+h1{
+    color: red;
+    background-color: pink;
+    margin-bottom: 19px;
+}
+h1::first-letter {
+    color: blue; /* Change the color of the first letter to red */
+}
+h1::sixth-letter {
+    color: blue; /* Change the color of the first letter to red */
+}
+img{
+    margin-bottom:16px;
+}
+ul{
+    background-color: beige;
+    text-decoration: underline;
+}
