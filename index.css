@@ -3,6 +3,12 @@ li, h3{
     margin: 4px;
     font-style: italic;
     font-weight: bold;
+    padding: 8px;
+    
+}
+h3{
+    margin-top: 8px;
+    color: green;
 }
 
 .first{
@@ -13,6 +19,8 @@ h1{
     color: red;
     background-color: pink;
     margin-bottom: 19px;
+    padding: 8px;
+    font-style: italic;
 }
 h1::first-letter {
     color: blue; /* Change the color of the first letter to red */
@@ -22,8 +30,11 @@ h1::sixth-letter {
 }
 img{
     margin-bottom:16px;
+    padding: 8px;
 }
 ul{
     background-color: beige;
     text-decoration: underline;
+    padding: 16px;
+    padding-left: 120px;
 }
